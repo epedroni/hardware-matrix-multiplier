@@ -1,0 +1,4 @@
+vhdl work "D:\Xtemp\matrix_multiplier\mux.vhd"
+vhdl work "D:\Xtemp\matrix_multiplier\FSM.vhd"
+vhdl work "D:\Xtemp\matrix_multiplier\counter.vhd"
+vhdl work "D:\Xtemp\matrix_multiplier\control_logic.vhd"

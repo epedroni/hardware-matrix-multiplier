@@ -1,0 +1,6 @@
+# begin LFP file D:\Xtemp\matrix_multiplier\top_module.lfp
+designfile top_module.vhd
+parttype xc2vp30-7-ff896
+bus_delimiter 8;
+set_busdelim_onsave 1;
+NET "clk" LOCAL_CLOCK_LOAD  ;

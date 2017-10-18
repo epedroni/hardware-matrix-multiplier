@@ -1,0 +1,6 @@
+vhdl work "FSM.vhd"
+vhdl work "counter.vhd"
+vhdl work "MACC.vhd"
+vhdl work "control_logic.vhd"
+vhdl work "top_module.vhd"
+vhdl work "test_bench.vhd"

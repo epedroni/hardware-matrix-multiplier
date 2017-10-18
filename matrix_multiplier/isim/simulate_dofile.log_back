@@ -1,0 +1,8 @@
+run 1000 ns
+run 30000 ns
+run 30000 ns
+run 30000 ns
+run 30000 ns
+run 16 us
+run 16500 ns
+exit

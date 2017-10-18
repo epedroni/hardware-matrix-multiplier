@@ -1,0 +1,29 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/A_counter2.vhd" in Library work.
+Entity <a_counter2> compiled.
+ERROR:HDLParsers:848 - "D:/Xtemp/matrix_multiplier/A_counter2.vhd" Line 44. Association list contains more actual names than formal names of to_stdlogicvector.
+ERROR:HDLParsers:848 - "D:/Xtemp/matrix_multiplier/A_counter2.vhd" Line 44. Association list contains more actual names than formal names of to_stdlogicvector.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+
+Total memory usage is 103672 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

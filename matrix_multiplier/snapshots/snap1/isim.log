@@ -1,0 +1,56 @@
+Command line:
+   ./test_bench_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  2250
+
+Wed Mar 14 10:35:48 2012
+
+Total Line Count : 459
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 266.4 Meg
+
+ Total Signals          : 281
+ Total Nets             : 658
+ Total Signal Drivers   : 113
+ Total Blocks           : 103
+ Total Primitive Blocks : 77
+ Total Processes        : 105
+ Total Traceable Variables  : 219
+ Total Scalar Nets and Variables : 1546
+ntrace select -o on -n /test_bench/clk 
+ntrace select -o on -n /test_bench/uut/Inst_debouncer_rst/deb_sig 
+ntrace select -o on -n /test_bench/uut/Inst_debouncer_nxt/deb_sig 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/rom_a 
+ntrace select -o on -n /test_bench/uut/Inst_ROM_A/spo 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/rom_b 
+ntrace select -o on -n /test_bench/uut/Inst_ROM_B/spo 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/ram 
+ntrace select -o on -n /test_bench/uut/Inst_RAM/spo 
+ntrace select -o on -n /test_bench/uut/Inst_RAM/d 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_FSM/current_state 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/coe_done_sig 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/line_done_sig 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/mat_done_sig 
+ntrace select -o on -n /test_bench/uut/macc_out 
+ntrace select -o on -n /test_bench/leds 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_FSM/c0_en 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_counter_0/c 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_FSM/c1_en 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_counter_1/c 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_FSM/c2_en 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_counter_2/c 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 30000 ns 
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 276.951 Meg
+
+Wed Mar 14 10:36:01 2012
+

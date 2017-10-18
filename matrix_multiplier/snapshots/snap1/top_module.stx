@@ -1,0 +1,46 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/FSM.vhd" in Library work.
+Architecture behavioral of Entity fsm is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/mux.vhd" in Library work.
+Architecture behavioral of Entity addr_logic is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/debouncer.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/control_logic.vhd" in Library work.
+Architecture behavioral of Entity control_logic is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/MACC.vhd" in Library work.
+Architecture behavioral of Entity macc is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/ROM_A.vhd" in Library work.
+Architecture rom_a_a of Entity rom_a is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/ROM_B.vhd" in Library work.
+Architecture rom_b_a of Entity rom_b is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/RAM_module.vhd" in Library work.
+Architecture ram_module_a of Entity ram_module is up to date.
+Compiling vhdl file "D:/Xtemp/matrix_multiplier/top_module.vhd" in Library work.
+Entity <top_module> compiled.
+ERROR:HDLParsers:164 - "D:/Xtemp/matrix_multiplier/top_module.vhd" Line 143. parse error, unexpected OTHERS, expecting COMMA or CLOSEPAR
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+Total memory usage is 104696 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

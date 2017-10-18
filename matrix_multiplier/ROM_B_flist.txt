@@ -1,0 +1,12 @@
+# Output products list for <ROM_B>
+ROM_B.asy
+ROM_B.mif
+ROM_B.ngc
+ROM_B.sym
+ROM_B.v
+ROM_B.veo
+ROM_B.vhd
+ROM_B.vho
+ROM_B.xco
+ROM_B_flist.txt
+ROM_B_xmdf.tcl

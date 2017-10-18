@@ -1,0 +1,12 @@
+# Output products list for <RAM_mod>
+RAM_mod.asy
+RAM_mod.mif
+RAM_mod.ngc
+RAM_mod.sym
+RAM_mod.v
+RAM_mod.veo
+RAM_mod.vhd
+RAM_mod.vho
+RAM_mod.xco
+RAM_mod_flist.txt
+RAM_mod_xmdf.tcl

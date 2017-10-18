@@ -1,0 +1,12 @@
+# Output products list for <RAM_module>
+RAM_module.asy
+RAM_module.mif
+RAM_module.ngc
+RAM_module.sym
+RAM_module.v
+RAM_module.veo
+RAM_module.vhd
+RAM_module.vho
+RAM_module.xco
+RAM_module_flist.txt
+RAM_module_xmdf.tcl

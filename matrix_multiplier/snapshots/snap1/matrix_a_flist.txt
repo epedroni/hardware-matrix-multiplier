@@ -1,0 +1,12 @@
+# Output products list for <matrix_a>
+matrix_a.asy
+matrix_a.mif
+matrix_a.ngc
+matrix_a.sym
+matrix_a.v
+matrix_a.veo
+matrix_a.vhd
+matrix_a.vho
+matrix_a.xco
+matrix_a_flist.txt
+matrix_a_xmdf.tcl

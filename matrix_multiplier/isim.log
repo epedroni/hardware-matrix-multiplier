@@ -1,0 +1,57 @@
+Command line:
+   ./test_bench_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  4956
+
+Wed Mar 14 17:14:22 2012
+
+Total Line Count : 460
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 266.404 Meg
+
+ Total Signals          : 284
+ Total Nets             : 717
+ Total Signal Drivers   : 115
+ Total Blocks           : 103
+ Total Primitive Blocks : 77
+ Total Processes        : 107
+ Total Traceable Variables  : 219
+ Total Scalar Nets and Variables : 1605
+ntrace select -o on -n /test_bench/clk 
+ntrace select -o on -n /test_bench/nxt 
+ntrace select -o on -n /test_bench/rst 
+ntrace select -o on -n /test_bench/uut/Inst_control_logic/Inst_FSM/current_state 
+ntrace select -o on -n /test_bench/uut/Inst_ROM_A/a 
+ntrace select -o on -n /test_bench/uut/Inst_ROM_A/spo 
+ntrace select -o on -n /test_bench/uut/Inst_ROM_B/a 
+ntrace select -o on -n /test_bench/uut/Inst_ROM_B/spo 
+ntrace select -o on -n /test_bench/uut/Inst_RAM/a 
+ntrace select -o on -n /test_bench/uut/Inst_RAM/d 
+ntrace select -o on -n /test_bench/uut/Inst_RAM/spo 
+ntrace select -o on -n /test_bench/uut/Inst_MACC/a 
+ntrace select -o on -n /test_bench/uut/Inst_MACC/b 
+ntrace select -o on -n /test_bench/uut/Inst_MACC/p 
+ntrace select -o on -n /test_bench/uut/leds 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+restart
+isimrun 16500 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+isimrun 500 ns 
+restart
+isimrun 1900 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 276.955 Meg
+
+Wed Mar 14 17:20:41 2012
+

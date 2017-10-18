@@ -1,0 +1,103 @@
+Running : C:\Xilinx\10.1\ISE\bin\nt\unwrapped\fuse.exe -ise
+D:/Xtemp/matrix_multiplier/matrix_multiplier.ise -intstyle ise -incremental -o
+test_bench_isim_beh.exe -prj test_bench_beh.prj -top test_bench
+Determining compilation order of HDL files
+Analyzing VHDL file mux.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file FSM.vhd
+Analyzing VHDL file counter.vhd
+Analyzing VHDL file ROM_B.vhd
+Restoring VHDL parse-tree xilinxcorelib.c_dist_mem_v7_1 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/xilinxcorelib/xilinxcorelib.vdbl
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Restoring VHDL parse-tree xilinxcorelib.ul_utils from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/xilinxcorelib/xilinxcorelib.vdbl
+Restoring VHDL parse-tree std.textio from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/textio.vdb
+Restoring VHDL parse-tree xilinxcorelib.iputils_mem87 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/xilinxcorelib/xilinxcorelib.vdbl
+Restoring VHDL parse-tree xilinxcorelib.prims_constants_v7_0 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/xilinxcorelib/xilinxcorelib.vdbl
+Restoring VHDL parse-tree xilinxcorelib.prims_utils_v7_0 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/xilinxcorelib/xilinxcorelib.vdbl
+Restoring VHDL parse-tree xilinxcorelib.c_reg_fd_v7_0_comp from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/xilinxcorelib/xilinxcorelib.vdbl
+Analyzing VHDL file ROM_A.vhd
+Analyzing VHDL file RAM_module.vhd
+Analyzing VHDL file MACC.vhd
+Restoring VHDL parse-tree ieee.std_logic_signed from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_signed.vdb
+Analyzing VHDL file debouncer.vhd
+Analyzing VHDL file control_logic.vhd
+Analyzing VHDL file top_module.vhd
+Analyzing VHDL file test_bench.vhd
+Saving VHDL parse-tree work.addr_logic into
+d:/xtemp/matrix_multiplier/isim/work/addr_logic.vdb
+Saving VHDL parse-tree work.fsm into
+d:/xtemp/matrix_multiplier/isim/work/fsm.vdb
+Saving VHDL parse-tree work.counter into
+d:/xtemp/matrix_multiplier/isim/work/counter.vdb
+Saving VHDL parse-tree work.rom_b into
+d:/xtemp/matrix_multiplier/isim/work/rom_b.vdb
+Saving VHDL parse-tree work.rom_a into
+d:/xtemp/matrix_multiplier/isim/work/rom_a.vdb
+Saving VHDL parse-tree work.ram_module into
+d:/xtemp/matrix_multiplier/isim/work/ram_module.vdb
+Saving VHDL parse-tree work.macc into
+d:/xtemp/matrix_multiplier/isim/work/macc.vdb
+Saving VHDL parse-tree work.debouncer into
+d:/xtemp/matrix_multiplier/isim/work/debouncer.vdb
+Saving VHDL parse-tree work.control_logic into
+d:/xtemp/matrix_multiplier/isim/work/control_logic.vdb
+Saving VHDL parse-tree work.top_module into
+d:/xtemp/matrix_multiplier/isim/work/top_module.vdb
+Saving VHDL parse-tree work.test_bench into
+d:/xtemp/matrix_multiplier/isim/work/test_bench.vdb
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 57180 Kb
+Fuse CPU Usage: 342 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package std_logic_signed from library ieee
+Using precompiled package textio from library std
+Compiling architecture behavioral of entity debouncer [debouncer_default]
+Compiling architecture behavioral of entity fsm [fsm_default]
+Compiling architecture behavioral of entity addr_logic [addr_logic_default]
+Compiling architecture behavioral of entity counter [\counter(4)\]
+Compiling architecture behavioral of entity counter [\counter(3)\]
+Compiling architecture behavioral of entity counter [\counter(5)\]
+Compiling architecture behavioral of entity control_logic
+[\control_logic(4,5,3)\]
+Compiling architecture behavioral of entity macc [\MACC(4)\]
+Compiling package ul_utils
+Compiling package iputils_mem87
+Compiling package prims_constants_v7_0
+Compiling package prims_utils_v7_0
+Compiling package c_reg_fd_v7_0_comp
+Compiling architecture behavioral of entity c_dist_mem_v7_1
+[\C_DIST_MEM_V7_1(6,"0",3,64,1,1,...]
+Compiling architecture rom_a_a of entity rom_a [rom_a_default]
+Compiling architecture behavioral of entity c_dist_mem_v7_1
+[\C_DIST_MEM_V7_1(6,"0",2,64,1,1,...]
+Compiling architecture rom_b_a of entity rom_b [rom_b_default]
+Compiling architecture behavioral of entity c_dist_mem_v7_1
+[\C_DIST_MEM_V7_1(6,"0",1,64,1,1,...]
+Compiling architecture ram_module_a of entity ram_module [ram_module_default]
+Compiling architecture behavioral of entity top_module [\top_module(4,5,3)\]
+Compiling architecture behavior of entity test_bench
+Compiled 43 VHDL Units
+Built simulation executable test_bench_isim_beh.exe
+Fuse Memory Usage: 58464 Kb
+Fuse CPU Usage: 484 ms

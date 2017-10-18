@@ -1,0 +1,4 @@
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "FSM.vhd"
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "control_logic.vhd"
